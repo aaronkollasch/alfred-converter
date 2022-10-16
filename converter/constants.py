@@ -56,6 +56,14 @@ ICONS = {
 }
 DEFAULT_ICON = 'ruler9.png'
 
+UNIT_ALIASES = {
+    'second': ('sec', 'secs'),
+    'minutes': ('mins', 'minute'),
+    'hour': ('hr', 'hrs'),
+    'weeks': ('wks', 'week'),
+    'annum': ('yr', 'yrs', 'year', 'years'),
+}
+
 ANNOTATION_REPLACEMENTS = {
     'litre': ('liter', 'liters', 'l'),
     'metre': ('meter', 'm'),
@@ -115,6 +123,12 @@ ANNOTATION_REPLACEMENTS = {
     'inch3': ('inch^3', 'cube inch'),
     'flozUS': ('flus', 'floz', 'fl', 'fl oz', 'fl oz uk'),
     'flozUK': ('fluk', 'fl oz uk', 'fl uk'),
+    'nanoseconds': ('nanosecond',),
+    'milliseconds': ('millisecond',),
+    'second': ('seconds',),
+    'minute': ('minutes',),
+    'hour': ('hours',),
+    'day': ('days',),
 }
 
 EXPANSIONS = {

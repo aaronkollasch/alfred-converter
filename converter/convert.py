@@ -283,6 +283,12 @@ class Unit:
                 elif k in id:
                     annotations.append(id.replace(k, v))
 
+        for k, vs in constants.UNIT_ALIASES.items():
+            if name == k:
+                annotations.extend(vs)
+            elif id == k:
+                annotations.extend(vs)
+
         self.annotations = set(annotations)
         self.quantity_types = set(quantity_types)
         self.base_unit = base_unit
