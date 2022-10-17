@@ -169,6 +169,8 @@ NAME_BLACKLIST = {
     'imperial',
     'link',
     'rankine',
+    'megabyte',
+    'kilobyte',
 }
 
 for annotation, items in ANNOTATION_REPLACEMENTS.items():
