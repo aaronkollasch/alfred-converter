@@ -286,7 +286,7 @@ class Unit:
         for k, vs in constants.UNIT_ALIASES.items():
             if name == k:
                 annotations.extend(vs)
-            elif id == k:
+            elif id == k:  # pragma: no cover: haven't defined an id alias yet
                 annotations.extend(vs)
 
         self.annotations = set(annotations)

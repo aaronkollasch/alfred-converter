@@ -2,3 +2,5 @@ units.pickle
 .DS_Store
 .idea
 __pycache__
+.coverage
+.tox
