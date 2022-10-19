@@ -89,8 +89,8 @@ ANNOTATION_REPLACEMENTS = {
     'mm': ('milimeter',),
     'mm2': ('mm^2', 'milimeter^2'),
     'mm3': ('mm^3', 'milimeter^3'),
-    'degF': ('f', 'fahrenheit', 'farhenheit', 'farenheit'),
-    'degC': ('c', 'celsius', 'celcius'),
+    'degF': ('f', 'fahrenheit', 'farhenheit', 'farenheit', '°F'),
+    'degC': ('c', 'celsius', 'celcius', '°C'),
     'byte': (
         'B',
         'bytes',
