@@ -130,6 +130,7 @@ ANNOTATION_REPLACEMENTS = {
     'minute': ('minutes',),
     'hour': ('hours',),
     'day': ('days',),
+    'ampere': ('amp', 'amps'),
 }
 
 EXPANSIONS = {
