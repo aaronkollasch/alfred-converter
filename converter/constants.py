@@ -85,6 +85,7 @@ ANNOTATION_REPLACEMENTS = {
     'cm3': (
         'cm^3',
         'centimeter^3',
+        'cc',
     ),
     'mm': ('milimeter',),
     'mm2': ('mm^2', 'milimeter^2'),
