@@ -123,6 +123,7 @@ ANNOTATION_REPLACEMENTS = {
     'inch3': ('inch^3', 'cube inch'),
     'flozUS': ('flus', 'floz', 'fl', 'fl oz', 'fl oz uk'),
     'flozUK': ('fluk', 'fl oz uk', 'fl uk'),
+    'galUS': ('gal',),
     'nanoseconds': ('nanosecond',),
     'milliseconds': ('millisecond',),
     'second': ('seconds',),
