@@ -120,6 +120,7 @@ ANNOTATION_REPLACEMENTS = {
     'square': ('sq',),
     'ft2': ('ft^2', 'foot^2'),
     'ft3': ('ft^3', 'foot^3'),
+    'ft3Pmin': ('cfm',),
     'inch': ('inches', '"'),
     'inch2': ('inch^2', 'square inch'),
     'inch3': ('inch^3', 'cube inch'),
