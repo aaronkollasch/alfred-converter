@@ -158,6 +158,9 @@ ANNOTATION_BLACKLIST = {
     'ftBnB',
     'ftCla',
     'ftInd',
+    'cs',
+    'hs',
+    '100ka',
 }
 
 NAME_BLACKLIST = {
