@@ -630,7 +630,7 @@ def format_units(
 
     if (
         magnitude not in {infinity, -infinity}
-        and abs(magnitude - new_magnitude) > max_magnitude
+        and abs(new_magnitude) > max_magnitude
     ):
         return
 
