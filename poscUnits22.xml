@@ -2222,6 +2222,17 @@
         </Fraction>
       </ConversionToBaseUnit>
     </UnitOfMeasure>
+    <UnitOfMeasure id="ka" annotation="ka">
+      <Name>kiloyears</Name>
+      <QuantityType>time</QuantityType>
+      <DimensionalClass>T</DimensionalClass>
+      <SameUnit uom="kyr" namingSystem="POSC"/>
+      <CatalogName>POSC</CatalogName>
+      <CatalogSymbol isExplicit="true">ka</CatalogSymbol>
+      <ConversionToBaseUnit baseUnit="s">
+        <Factor>31558150000</Factor>
+      </ConversionToBaseUnit>
+    </UnitOfMeasure>
     <UnitOfMeasure id="100ka" annotation="100ka">
       <Name>100000 years</Name>
       <QuantityType>time</QuantityType>
