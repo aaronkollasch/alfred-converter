@@ -518,7 +518,7 @@ def format_number(create_item, quantity):
         ),
         icon=f'icons/{get_color_prefix()}calculator63.png',
         attrib=dict(
-            uid=q_str,
+            # uid=q_str,
             arg=q_str,
             valid='yes',
         ),
@@ -538,7 +538,7 @@ def format_number(create_item, quantity):
                 ),
                 icon=f'icons/{get_color_prefix()}calculator63.png',
                 attrib=dict(
-                    uid=q_hex,
+                    # uid=q_hex,
                     arg=q_hex,
                     valid='yes',
                 ),
@@ -554,7 +554,7 @@ def format_number(create_item, quantity):
                 ),
                 icon=f'icons/{get_color_prefix()}calculator63.png',
                 attrib=dict(
-                    uid=q_oct,
+                    # uid=q_oct,
                     arg=q_oct,
                     valid='yes',
                 ),
@@ -570,7 +570,7 @@ def format_number(create_item, quantity):
                 ),
                 icon=f'icons/{get_color_prefix()}calculator63.png',
                 attrib=dict(
-                    uid=q_bin,
+                    # uid=q_bin,
                     arg=q_bin,
                     valid='yes',
                 ),
@@ -679,7 +679,7 @@ def create_items(create_item, from_, new_quantity, titles, to):
             or get_color_prefix() + constants.DEFAULT_ICON
         ),
         attrib=dict(
-            uid=f'{from_.id} to {to.id}',
+            # uid=f'{from_.id} to {to.id}',
             arg=new_quantity,
             valid='yes',
             autocomplete=f'{new_quantity} {to}',
