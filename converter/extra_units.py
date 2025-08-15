@@ -114,3 +114,21 @@ def register_post(units):
     hz.conversion_params = tuple(units.get('cycles/second').conversion_params)
     hz.base_unit = 'radians/second'
     hz.register(units)
+
+    kgpm2 = units.get("kg/m2")
+    kgpm2.copy(
+        units=units,
+        id='gsm',
+        name='grams/square meter',
+        annotations=['gsm', 'grammage'],
+        conversion_params=('0', '0.001', '1', '0'),
+        fractional=False,
+    ).register(units)
+    kgpm2.copy(
+        units=units,
+        id='lb/ream',
+        name='pounds/ream',
+        annotations=['lb/ream', 'lbs/ream'],
+        conversion_params=('0', '0.00148', '1', '0'),
+        fractional=False,
+    ).register(units)
